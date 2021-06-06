@@ -199,8 +199,8 @@ page_logo.toolbar.logo = None
 page_logo.toolbar_location = None
 page_logo.x_range=Range1d(start=0, end=1)
 page_logo.y_range=Range1d(start=0, end=1)
-page_logo.xaxis.visible = None
-page_logo.yaxis.visible = None
+# page_logo.xaxis.visible = None
+# page_logo.yaxis.visible = None
 page_logo.xgrid.grid_line_color = None
 page_logo.ygrid.grid_line_color = None
 page_logo.image_url(url='url', x=0.05, y = 0.85, h=0.7, w=0.7, source=logo_src)
