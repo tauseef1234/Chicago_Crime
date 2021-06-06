@@ -27,7 +27,7 @@ cg_2019['period'].replace({1: 'Late Night',
                       4: 'Noon',
                       5: 'Evening',
                       6: 'Night'}, inplace=True)
-cg_2019['day']=cg_2019['date'].dt.weekday_name
+cg_2019['day']=cg_2019['date'].dt.day_name()
 
 months =  list(cg_2019['month'].unique())
 offence_type = list(cg_2019['primary_type'].unique())
